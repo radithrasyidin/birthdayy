@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday My Love</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffd6e8, #fff3b0, #cde7ff);
+      color: #444;
+    }
+
+    header {
+      background: rgba(255,255,255,0.8);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(10px);
+    }
+
+    header h1 {
+      color: #ff4d88;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #ff4d88;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      color: #ff4d88;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      margin: 20px auto;
+      max-width: 700px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 20px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Our Special Day ✨</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#wish">Birthday Wish</a>
+      <a href="#journey">Today's Journey</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Happy Birthday My Love 🎉💖</h2>
+    <p><strong>Happy Birthday My Love, I hope your dreams come true.</strong></p>
+  </section>
+
+  <section id="wish">
+    <div class="card">
+      <h2>Birthday Wish 💌</h2>
+      <p>
+        Hari ini adalah hari spesial untuk seseorang yang sangat berarti.
+        Terima kasih sudah menjadi bagian dari hidupku, menghadirkan tawa,
+        kebahagiaan, dan kenangan indah. Semoga semua impianmu tercapai
+        dan kebahagiaan selalu menyertaimu.
+      </p>
+    </div>
+  </section>
+
+  <section id="journey">
+    <div class="card">
+      <h2>Today's Journey 🌤️</h2>
+      <p>
+        Dari momen pemberian bunga dan hadiah kecil,
+        hingga selfie sederhana yang penuh makna,
+        hari ini menjadi kenangan indah yang tak akan terlupakan.
+      </p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery Kenangan 📸</h2>
+    <div class="gallery">
+      <img src="foto1.jpg" alt="Moment 1">
+      <img src="foto2.jpg" alt="Moment 2">
+      <img src="foto3.jpg" alt="Moment 3">
+      <img src="foto4.jpg" alt="Moment 4">
+    </div>
+  </section>
+
+  <footer>
+    Made with love 💛 | A Special Birthday Memory
+  </footer>
+
+</body>
+</html>
